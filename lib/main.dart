@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/first.dart';
+import 'package:my_app/Todo.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const First(),
+      home: const TodoApp(),
     );
   }
 }
